@@ -2,14 +2,12 @@
 
 This project demonstrates a secure and efficient approach to implementing payment functionality using the SeerBit Standard Checkout API. Built with FastAPI and MongoDB, this application is designed to simplify the process of creating and managing online payments, making it ideal for developers working on financial integrations.
 
----
 
 ## **Features**
 - **Payment Initialization**: Create and initialize payments securely using [SeerBit's Standard Checkout API](https://doc.seerbit.com/online-payment/integration-type/standard-checkout).
 - **MongoDB Integration**: Store and manage payment records in a robust database for easy retrieval and tracking.
 - **RESTful API**: A FastAPI-powered API to handle payment requests with structured validation using Pydantic.
 
----
 
 ## **Tech Stack**
 - **[FastAPI](https://fastapi.tiangolo.com/tutorial/)**: A modern, high-performance web framework for building APIs.
@@ -19,7 +17,6 @@ This project demonstrates a secure and efficient approach to implementing paymen
 - **[Requests](https://pypi.org/project/requests/)**: Handles HTTP communication with external APIs.
 - **[Python Dotenv](https://pypi.org/project/python-dotenv/)**: Manages environment variables for secure configuration.
 
----
 
 ## **Getting Started**
 
@@ -35,7 +32,6 @@ This project demonstrates a secure and efficient approach to implementing paymen
   PUBLIC_KEY="your_public_key"
   ```
 
----
 
 ### **Installation**
 
@@ -61,7 +57,6 @@ This project demonstrates a secure and efficient approach to implementing paymen
 5. **Access the API Documentation**  
    Navigate to [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) to explore and test the endpoints using FastAPI's Swagger UI.
 
----
 
 ## **API Endpoints**
 
@@ -90,7 +85,6 @@ This project demonstrates a secure and efficient approach to implementing paymen
     ```
   - **Failure**: Returns an HTTP error with the status code and error details.
 
----
 
 ## **How It Works**
 1. **Payment Initialization**:  
@@ -106,19 +100,16 @@ This project demonstrates a secure and efficient approach to implementing paymen
    - Sensitive keys are stored securely in environment variables.
    - The app uses HTTPS for secure API communication.
 
----
 
 ## **Notes**
 - Ensure your MongoDB instance is accessible and properly configured.
 - Use a valid `paymentReference` for unique transaction identification.
 - Configure your SeerBit callback URL to handle post-payment actions effectively.
 
----
 
 ## **Contributions**
 We welcome contributions! Feel free to fork the repository, raise issues, or submit pull requests to improve this project.
 
----
 
 ## **License**
 This project is open-source and available under the [MIT License](LICENSE).

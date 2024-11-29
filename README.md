@@ -55,7 +55,7 @@ This project demonstrates a secure and efficient approach to implementing paymen
 
 4. **Start the Application**  
    ```bash
-   uvicorn main:app --reload
+   fastapi dev app.py
    ```
 
 5. **Access the API Documentation**  
